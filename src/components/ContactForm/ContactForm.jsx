@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { InputLabel, InputField, SubmitButton, Form } from './styled';
+import PropTypes from 'prop-types';
 
 export class ContactForm extends Component {
   state = {
